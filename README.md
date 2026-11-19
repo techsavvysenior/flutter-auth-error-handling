@@ -30,7 +30,8 @@ Demo account: `demo@example.com` / `password123`
 
 ## Run it
 
-Requires Flutter 3.19 or later (Dart 3.3).
+Requires Flutter 3.47 or later. The UI uses the standalone `material_ui` package
+that replaced `package:flutter/material.dart`.
 
 ```bash
 flutter create --platforms=android,ios --project-name flutter_auth_error_handling .
