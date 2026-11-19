@@ -1,5 +1,7 @@
 # Flutter login with typed API error handling
 
+[![CI](https://github.com/techsavvysenior/flutter-auth-error-handling/actions/workflows/ci.yml/badge.svg)](https://github.com/techsavvysenior/flutter-auth-error-handling/actions/workflows/ci.yml)
+
 A small Flutter sample showing how I structure a login flow so that every way a
 request can fail ends up as a clear message on screen, and never as a crash or a
 spinner that runs forever.
