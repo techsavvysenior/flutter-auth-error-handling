@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_auth_error_handling/app.dart';
 import 'package:flutter_auth_error_handling/src/api/api_client.dart';
 import 'package:flutter_auth_error_handling/src/auth/auth_controller.dart';
@@ -6,6 +5,7 @@ import 'package:flutter_auth_error_handling/src/auth/auth_repository.dart';
 import 'package:flutter_auth_error_handling/src/auth/token_store.dart';
 import 'package:flutter_auth_error_handling/src/demo/demo_backend.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:material_ui/material_ui.dart';
 
 Future<DemoSettings> _pumpApp(WidgetTester tester) async {
   final demo = DemoSettings();
